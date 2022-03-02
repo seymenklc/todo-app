@@ -1,0 +1,27 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.icon {
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.check-icon {
+    padding: 10px;
+    border-right: 2px solid lightgray;
+}
+
+.icon-wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.icon-wrapper button {
+    border: none;
+    background-color: #333;
+}
+
+.icon-wrapper button:active {
+    transform: scale(.9)
+}
